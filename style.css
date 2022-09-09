@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image:linear-gradient(orange,white);
+    background-repeat: no-repeat;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;align-items: center;
+    text-align: center;
+
+}
+.heading{
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+p{
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin: 1rem;
+    letter-spacing: 0.1em;
+}
+button{
+    background: black;
+    color: white;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    cursor: pointer;
+}
